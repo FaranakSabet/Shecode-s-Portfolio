@@ -4,10 +4,7 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-body {
-  margin: 60px auto;
-  max-width: 800px;
-}
+
 
 h1,
 h2,
@@ -116,3 +113,18 @@ img,
 svg {
   vertical-align: middle;
 }
+@media (max-width: 680px) {
+  img {
+    display: none;
+  }
+  h1{
+    font-size: 20px;
+    text-align: center;
+  }
+  h3{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 5px;
+  }
+}
+
